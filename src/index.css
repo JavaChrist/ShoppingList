@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    @apply min-h-full;
+  }
+  body {
+    @apply text-gray-900 antialiased font-sans;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 45%, #db2777 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    /* Supporte iPhone avec encoche/Dynamic Island : le dégradé s'étend jusqu'aux bords */
+    min-height: 100dvh;
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Empêche le zoom sur input mobile iOS */
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+@layer utilities {
+  /* Respecte les safe-areas iOS (notch en haut, barre home en bas) */
+  .safe-top {
+    padding-top: max(0.5rem, env(safe-area-inset-top));
+  }
+  .safe-bottom {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+  .safe-x {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+@layer components {
+  /* ---------- Buttons ---------- */
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2.5 rounded-xl font-semibold
+           transition-all duration-150 active:scale-95 touch-manipulation;
+  }
+  .btn-primary {
+    @apply btn text-white shadow-lg shadow-emerald-500/30
+           bg-gradient-to-br from-emerald-500 to-emerald-600
+           hover:from-emerald-400 hover:to-emerald-500
+           hover:shadow-xl hover:shadow-emerald-500/40;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-gray-800 border border-gray-200 hover:bg-gray-50
+           shadow-sm hover:shadow-md;
+  }
+  .btn-danger {
+    @apply btn text-white bg-gradient-to-br from-red-500 to-red-600
+           hover:from-red-400 hover:to-red-500 shadow-lg shadow-red-500/30;
+  }
+  .btn-accent {
+    @apply btn text-white shadow-lg shadow-fuchsia-500/30
+           bg-gradient-to-br from-fuchsia-500 to-pink-600
+           hover:from-fuchsia-400 hover:to-pink-500;
+  }
+
+  /* ---------- Back button (replaces arrow) ---------- */
+  .back-btn {
+    @apply inline-flex items-center gap-1.5 px-3 py-2 rounded-full
+           bg-white/95 backdrop-blur text-gray-800 font-semibold text-sm
+           shadow-md hover:shadow-lg hover:bg-white
+           transition-all duration-150 active:scale-95;
+  }
+
+  /* ---------- Icon button (circular white pill) ---------- */
+  .icon-btn {
+    @apply w-10 h-10 rounded-full bg-white/95 backdrop-blur
+           flex items-center justify-center text-gray-700
+           shadow-md hover:shadow-lg hover:bg-white
+           transition-all duration-150 active:scale-95;
+  }
+
+  /* ---------- Inputs ---------- */
+  .input {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 bg-white
+           focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none
+           shadow-sm;
+  }
+
+  /* ---------- Cards ---------- */
+  .card {
+    @apply bg-white rounded-2xl border border-white/60;
+    box-shadow: 0 10px 40px -10px rgba(99, 102, 241, 0.25),
+                0 4px 12px -4px rgba(0, 0, 0, 0.08);
+  }
+
+  /* ---------- Page title on gradient ---------- */
+  .page-title {
+    @apply text-white font-extrabold tracking-tight drop-shadow-md;
+  }
+  .page-subtitle {
+    @apply text-white/85 text-sm;
+  }
+}
+
+/* Animations pour les modales et toasts */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

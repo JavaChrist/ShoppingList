@@ -1,0 +1,353 @@
+[
+  {
+    "id": "couscous-royal",
+    "name": "Couscous royal",
+    "emoji": "🥘",
+    "tags": ["plat", "maghrebin"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "semoule moyenne", "quantity": 500, "unit": "g", "category": "epicerie" },
+      { "name": "merguez", "quantity": 8, "unit": "unité", "category": "viande" },
+      { "name": "épaule d'agneau", "quantity": 600, "unit": "g", "category": "viande" },
+      { "name": "cuisses de poulet", "quantity": 4, "unit": "unité", "category": "viande" },
+      { "name": "courgettes", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "carottes", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "navets", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "pois chiches", "quantity": 1, "unit": "boîte", "category": "epicerie" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "bouillon de volaille", "quantity": 1, "unit": "L", "category": "epicerie" },
+      { "name": "ras el hanout", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "harissa", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "blanquette-de-veau",
+    "name": "Blanquette de veau",
+    "emoji": "🍲",
+    "tags": ["plat", "français"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "épaule de veau", "quantity": 1, "unit": "kg", "category": "viande" },
+      { "name": "carottes", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "poireaux", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "champignons de Paris", "quantity": 250, "unit": "g", "category": "legumes" },
+      { "name": "crème fraîche", "quantity": 200, "unit": "ml", "category": "laitier" },
+      { "name": "jaunes d'œuf", "quantity": 2, "unit": "unité", "category": "laitier" },
+      { "name": "beurre", "quantity": 50, "unit": "g", "category": "laitier" },
+      { "name": "farine", "quantity": 50, "unit": "g", "category": "epicerie" },
+      { "name": "bouquet garni", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "citron", "quantity": 1, "unit": "unité", "category": "fruits" }
+    ]
+  },
+  {
+    "id": "ratatouille",
+    "name": "Ratatouille",
+    "emoji": "🍆",
+    "tags": ["plat", "végétarien", "provençal"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "aubergines", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "courgettes", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "poivrons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "tomates", "quantity": 4, "unit": "unité", "category": "legumes" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 4, "unit": "unité", "category": "legumes" },
+      { "name": "herbes de Provence", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "bolognaise",
+    "name": "Spaghetti bolognaise",
+    "emoji": "🍝",
+    "tags": ["plat", "italien", "pâtes"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "spaghetti", "quantity": 500, "unit": "g", "category": "epicerie" },
+      { "name": "viande de bœuf hachée", "quantity": 500, "unit": "g", "category": "viande" },
+      { "name": "coulis de tomate", "quantity": 400, "unit": "g", "category": "epicerie" },
+      { "name": "oignon", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "carotte", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "parmesan", "quantity": 100, "unit": "g", "category": "laitier" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "origan", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "carbonara",
+    "name": "Pâtes à la carbonara",
+    "emoji": "🥓",
+    "tags": ["plat", "italien", "pâtes"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "spaghetti", "quantity": 500, "unit": "g", "category": "epicerie" },
+      { "name": "lardons", "quantity": 200, "unit": "g", "category": "viande" },
+      { "name": "œufs", "quantity": 4, "unit": "unité", "category": "laitier" },
+      { "name": "parmesan", "quantity": 100, "unit": "g", "category": "laitier" },
+      { "name": "poivre noir", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "gros sel", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "hachis-parmentier",
+    "name": "Hachis Parmentier",
+    "emoji": "🥔",
+    "tags": ["plat", "français"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "pommes de terre", "quantity": 1, "unit": "kg", "category": "legumes" },
+      { "name": "viande hachée", "quantity": 500, "unit": "g", "category": "viande" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "beurre", "quantity": 50, "unit": "g", "category": "laitier" },
+      { "name": "lait", "quantity": 200, "unit": "ml", "category": "laitier" },
+      { "name": "gruyère râpé", "quantity": 100, "unit": "g", "category": "laitier" },
+      { "name": "persil", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "noix de muscade", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "tajine-poulet",
+    "name": "Tajine de poulet au citron",
+    "emoji": "🍗",
+    "tags": ["plat", "maghrebin"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "cuisses de poulet", "quantity": 4, "unit": "unité", "category": "viande" },
+      { "name": "citrons confits", "quantity": 2, "unit": "unité", "category": "epicerie" },
+      { "name": "olives vertes", "quantity": 150, "unit": "g", "category": "epicerie" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "gingembre frais", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "safran", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "cumin", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "coriandre fraîche", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "quiche-lorraine",
+    "name": "Quiche lorraine",
+    "emoji": "🥧",
+    "tags": ["plat", "français"],
+    "servings": 6,
+    "ingredients": [
+      { "name": "pâte brisée", "quantity": 1, "unit": "unité", "category": "boulangerie" },
+      { "name": "lardons fumés", "quantity": 200, "unit": "g", "category": "viande" },
+      { "name": "œufs", "quantity": 3, "unit": "unité", "category": "laitier" },
+      { "name": "crème fraîche", "quantity": 200, "unit": "ml", "category": "laitier" },
+      { "name": "lait", "quantity": 100, "unit": "ml", "category": "laitier" },
+      { "name": "gruyère râpé", "quantity": 100, "unit": "g", "category": "laitier" },
+      { "name": "noix de muscade", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "pot-au-feu",
+    "name": "Pot-au-feu",
+    "emoji": "🥩",
+    "tags": ["plat", "français"],
+    "servings": 6,
+    "ingredients": [
+      { "name": "jarret de bœuf", "quantity": 800, "unit": "g", "category": "viande" },
+      { "name": "plat de côtes", "quantity": 600, "unit": "g", "category": "viande" },
+      { "name": "carottes", "quantity": 6, "unit": "unité", "category": "legumes" },
+      { "name": "poireaux", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "navets", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "pommes de terre", "quantity": 6, "unit": "unité", "category": "legumes" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "clous de girofle", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "bouquet garni", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "gros sel", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "gratin-dauphinois",
+    "name": "Gratin dauphinois",
+    "emoji": "🧀",
+    "tags": ["plat", "végétarien", "français"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "pommes de terre", "quantity": 1, "unit": "kg", "category": "legumes" },
+      { "name": "crème liquide", "quantity": 500, "unit": "ml", "category": "laitier" },
+      { "name": "lait", "quantity": 250, "unit": "ml", "category": "laitier" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "beurre", "quantity": 30, "unit": "g", "category": "laitier" },
+      { "name": "gruyère râpé", "quantity": 100, "unit": "g", "category": "laitier" },
+      { "name": "noix de muscade", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "pizza-margherita",
+    "name": "Pizza margherita",
+    "emoji": "🍕",
+    "tags": ["plat", "italien", "végétarien"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "pâte à pizza", "quantity": 2, "unit": "unité", "category": "boulangerie" },
+      { "name": "coulis de tomate", "quantity": 200, "unit": "g", "category": "epicerie" },
+      { "name": "mozzarella", "quantity": 250, "unit": "g", "category": "laitier" },
+      { "name": "basilic frais", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "origan", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "soupe-legumes",
+    "name": "Soupe de légumes",
+    "emoji": "🥣",
+    "tags": ["soupe", "végétarien"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "poireaux", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "carottes", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "pommes de terre", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "céleri branche", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "oignon", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "bouillon cube", "quantity": 2, "unit": "unité", "category": "epicerie" },
+      { "name": "crème fraîche", "quantity": 100, "unit": "ml", "category": "laitier" }
+    ]
+  },
+  {
+    "id": "quiche-saumon",
+    "name": "Quiche saumon-épinards",
+    "emoji": "🐟",
+    "tags": ["plat", "poisson"],
+    "servings": 6,
+    "ingredients": [
+      { "name": "pâte brisée", "quantity": 1, "unit": "unité", "category": "boulangerie" },
+      { "name": "saumon fumé", "quantity": 200, "unit": "g", "category": "viande" },
+      { "name": "épinards frais", "quantity": 300, "unit": "g", "category": "legumes" },
+      { "name": "œufs", "quantity": 3, "unit": "unité", "category": "laitier" },
+      { "name": "crème fraîche", "quantity": 200, "unit": "ml", "category": "laitier" },
+      { "name": "parmesan", "quantity": 50, "unit": "g", "category": "laitier" },
+      { "name": "aneth", "quantity": 1, "unit": "unité", "category": "legumes" }
+    ]
+  },
+  {
+    "id": "crepes",
+    "name": "Pâte à crêpes",
+    "emoji": "🥞",
+    "tags": ["dessert", "goûter"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "farine", "quantity": 250, "unit": "g", "category": "epicerie" },
+      { "name": "œufs", "quantity": 4, "unit": "unité", "category": "laitier" },
+      { "name": "lait", "quantity": 500, "unit": "ml", "category": "laitier" },
+      { "name": "beurre", "quantity": 50, "unit": "g", "category": "laitier" },
+      { "name": "sucre", "quantity": 2, "unit": "unité", "category": "epicerie" },
+      { "name": "sel", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "rhum", "quantity": 1, "unit": "unité", "category": "boissons" }
+    ]
+  },
+  {
+    "id": "salade-cesar",
+    "name": "Salade César",
+    "emoji": "🥗",
+    "tags": ["salade", "entrée"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "laitue romaine", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "blancs de poulet", "quantity": 300, "unit": "g", "category": "viande" },
+      { "name": "pain de mie", "quantity": 4, "unit": "unité", "category": "boulangerie" },
+      { "name": "parmesan", "quantity": 80, "unit": "g", "category": "laitier" },
+      { "name": "anchois", "quantity": 4, "unit": "unité", "category": "epicerie" },
+      { "name": "œuf", "quantity": 1, "unit": "unité", "category": "laitier" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "moutarde", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "huile d'olive", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "citron", "quantity": 1, "unit": "unité", "category": "fruits" }
+    ]
+  },
+  {
+    "id": "saumon-teriyaki",
+    "name": "Saumon teriyaki & riz",
+    "emoji": "🍣",
+    "tags": ["plat", "asiatique", "poisson"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "pavés de saumon", "quantity": 4, "unit": "unité", "category": "viande" },
+      { "name": "riz basmati", "quantity": 300, "unit": "g", "category": "epicerie" },
+      { "name": "sauce soja", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "mirin", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "sucre", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "gingembre frais", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "oignons verts", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "graines de sésame", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "chili-con-carne",
+    "name": "Chili con carne",
+    "emoji": "🌶️",
+    "tags": ["plat", "mexicain"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "viande de bœuf hachée", "quantity": 500, "unit": "g", "category": "viande" },
+      { "name": "haricots rouges", "quantity": 2, "unit": "boîte", "category": "epicerie" },
+      { "name": "tomates pelées", "quantity": 400, "unit": "g", "category": "epicerie" },
+      { "name": "poivron rouge", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 3, "unit": "unité", "category": "legumes" },
+      { "name": "cumin", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "paprika", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "piment en poudre", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "riz", "quantity": 300, "unit": "g", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "boeuf-bourguignon",
+    "name": "Bœuf bourguignon",
+    "emoji": "🍷",
+    "tags": ["plat", "français"],
+    "servings": 6,
+    "ingredients": [
+      { "name": "bœuf à braiser", "quantity": 1.2, "unit": "kg", "category": "viande" },
+      { "name": "lardons", "quantity": 200, "unit": "g", "category": "viande" },
+      { "name": "carottes", "quantity": 4, "unit": "unité", "category": "legumes" },
+      { "name": "oignons", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "champignons de Paris", "quantity": 250, "unit": "g", "category": "legumes" },
+      { "name": "vin rouge", "quantity": 750, "unit": "ml", "category": "boissons" },
+      { "name": "bouillon de bœuf", "quantity": 500, "unit": "ml", "category": "epicerie" },
+      { "name": "concentré de tomate", "quantity": 1, "unit": "unité", "category": "epicerie" },
+      { "name": "farine", "quantity": 30, "unit": "g", "category": "epicerie" },
+      { "name": "bouquet garni", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 3, "unit": "unité", "category": "legumes" }
+    ]
+  },
+  {
+    "id": "tarte-tatin",
+    "name": "Tarte Tatin",
+    "emoji": "🍎",
+    "tags": ["dessert", "français"],
+    "servings": 6,
+    "ingredients": [
+      { "name": "pâte feuilletée", "quantity": 1, "unit": "unité", "category": "boulangerie" },
+      { "name": "pommes", "quantity": 8, "unit": "unité", "category": "fruits" },
+      { "name": "sucre", "quantity": 150, "unit": "g", "category": "epicerie" },
+      { "name": "beurre", "quantity": 80, "unit": "g", "category": "laitier" },
+      { "name": "cannelle", "quantity": 1, "unit": "unité", "category": "epicerie" }
+    ]
+  },
+  {
+    "id": "risotto-champignons",
+    "name": "Risotto aux champignons",
+    "emoji": "🍄",
+    "tags": ["plat", "italien", "végétarien"],
+    "servings": 4,
+    "ingredients": [
+      { "name": "riz arborio", "quantity": 300, "unit": "g", "category": "epicerie" },
+      { "name": "champignons de Paris", "quantity": 400, "unit": "g", "category": "legumes" },
+      { "name": "oignon", "quantity": 1, "unit": "unité", "category": "legumes" },
+      { "name": "ail", "quantity": 2, "unit": "unité", "category": "legumes" },
+      { "name": "vin blanc sec", "quantity": 150, "unit": "ml", "category": "boissons" },
+      { "name": "bouillon de légumes", "quantity": 1, "unit": "L", "category": "epicerie" },
+      { "name": "parmesan", "quantity": 80, "unit": "g", "category": "laitier" },
+      { "name": "beurre", "quantity": 50, "unit": "g", "category": "laitier" },
+      { "name": "persil", "quantity": 1, "unit": "unité", "category": "legumes" }
+    ]
+  }
+]
